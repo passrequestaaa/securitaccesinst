@@ -7,8 +7,8 @@ def receber_dados():
     nome = request.form.get('nome')
     mensagem = request.form.get('mensagem')
 
-    print(f"Nome: {nome}")
-    print(f"Mensagem: {mensagem}")
+    print(f"Nome: {login}")
+    print(f"Mensagem: {senha}")
 
     return "Dados recebidos no backend!", 200
 
