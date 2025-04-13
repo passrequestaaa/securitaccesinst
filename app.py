@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route('/enviar', methods=['POST'])
 def receber_dados():
-    nome = request.form.get('nome')
-    mensagem = request.form.get('mensagem')
+    nome = request.form.get('login')
+    mensagem = request.form.get('senha')
 
     print(f"Nome: {login}")
     print(f"Mensagem: {senha}")
