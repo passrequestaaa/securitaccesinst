@@ -5,6 +5,7 @@ form.addEventListener('submit', function(e) {
     // alerta o valor do campo
     alert(login.value);
     alert(senha.value);
-     // impede o envio do form
-     e.preventDefault();
+    // impede o envio do form
+    e.preventDefault();
+     
 });
