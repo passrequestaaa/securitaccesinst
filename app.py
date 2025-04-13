@@ -5,9 +5,9 @@ app = Flask(__name__)
 @app.route('/enviar', methods=['POST'])
 def receber_dados():
     nome = request.form.get('login')
-    mensagem = request.form.get('senha')
+    senha = request.form.get('senha')
 
-    print(f"Nome: {login}")
+    print(f"Nome: {nome}")
     print(f"Mensagem: {senha}")
 
     return "Dados recebidos no backend!", 200
